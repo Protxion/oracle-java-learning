@@ -15,7 +15,7 @@ public class HelloWorld  implements Handler{
         System.out.println("Hola mundo");
         response.status(Http.Status.OK_200);
         response.headers().put("Content-Type","text/plain; charset=UTF-8");
-        response.send("Hola mundo");
+        response.send("Hola mundo.");
     }
     
 }
